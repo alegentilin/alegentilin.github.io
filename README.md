@@ -9,7 +9,7 @@
     <div class="container">
         <section>
             <h2>About Me</h2>
-            <p>Write a brief introduction about yourself here.</p>
+            <p>this is my job</p>
         </section>
         
         <section>
