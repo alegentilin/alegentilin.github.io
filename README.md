@@ -1,30 +1,4 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alessandro</title>
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-    </style>
 </head>
 <body>
     <header>
