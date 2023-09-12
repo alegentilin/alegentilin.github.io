@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,6 +37,7 @@
     </style>
 <html lang="en">
 </head>
+    
 <body>
     <header>
         <h1>Alessandro Gentilin PhD</h1>
