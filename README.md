@@ -47,7 +47,7 @@
     <div class="container">
         <section>
             <h2>About Me</h2>
-            <p>this is my job</p>
+            <p>this is my work</p>
         </section>
         
         <section>
