@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -52,6 +51,11 @@
             <h2>Contact Me</h2>
             <p>You can reach me at: <a href="mailto:your@email.com">your@email.com</a></p>
         </section>
+
+<section>
+<a href="https://www.youtube.com/channel/UCoHrYhpB3gdG9fKezOIItEA">Personal Experience</a>
+        </section>
+        
     </div>
 </body>
 </html>
