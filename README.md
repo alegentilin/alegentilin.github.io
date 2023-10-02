@@ -1,27 +1,94 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessandro Gentilin - Professional Background</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-  </head>
-  
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-      {% endif %}
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
 
-      {{ content }}
+        h1 {
+            margin: 0;
+        }
 
-      {% if site.github.private != true and site.github.license %}
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. {% github_edit_link "Improve this page" %}.
-      </div>
-      {% endif %}
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alessandro Gentilin, PhD</h1>
+        <p>Scientific Advisory | Data Science | Applied AI | Technology Development</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Personal Information</h2>
+            <ul>
+                <li>Place and date of birth: Valdagno (Italy) – 24/05/1990</li>
+                <li>Nationality: Italian</li>
+                <li>Home Address: Piazza Sant’Andrea 33, Cornedo Vicentino, 36073, Italy</li>
+                <li>Email: alessandrogentilin@outlook.it</li>
+                <li>Phone number: +39 346 2418915</li>
+                <li>Fiscal Code: GNTLSN90E24L551S</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Summary of Personal Experience</h2>
+            <p>I am a hybrid professional with expertise in both university and industry settings...</p>
+            <!-- Add more content here -->
+        </section>
+
+        <section>
+            <h2>Working Experience</h2>
+            <!-- Add your work experience details here -->
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <!-- Add your education details here -->
+        </section>
+
+        <section>
+            <h2>Languages</h2>
+            <!-- Add your language proficiency details here -->
+        </section>
+
+        <section>
+            <h2>Publications</h2>
+            <!-- Add your publication details here -->
+        </section>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-  </body>
+</body>
 </html>
